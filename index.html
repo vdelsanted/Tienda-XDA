@@ -5,38 +5,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tienda XDA</title>
   <link rel="stylesheet" href="assets/css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,700|Raleway:400,700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <nav class="menu">
-    <div class="menu__bloque">
-      <h4 class="menu__bloque-txt">XDA</h4>
+
+  <header class="container-fluid header">
+    <div class="row">
+      <div class="col-2 header__bloque">
+        <h4 class="header__bloque-txt">XDA</h4>
+      </div>
+
+      <div class="col-10 header__menu">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-item nav-link active" href="#">Mujeres<span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="#">Hombres</a>
+              <a class="nav-item nav-link" href="#">Accesorios</a>
+              <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Blog</a>
+            </div>
+          </div>
+        </nav>
+      </div>
     </div>
-    <ul class="menu__items">
-      <li>Mujer</li>
-      <li>Hombre</li>
-      <li>Accesorios</li>
-      <li>Blog</li>
-    </ul>
-  </nav>
+  </header>
+
 
   <main class="body">
-    <div class="body__txt">
+    <article class="body__txt">
       <h1 class="body__txt-title">LOREM IPSUM<br>AD VALOREM</h1>
       <p class="body__txt-p">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
       <button type="button" name="button" class="body__txt-button">Ir a tienda</button>
-    </div>
-    <div class="body__img">
-      <img src="assets/img/model-1.jpg" alt="model" class="body__img-model">
-    </div>
-  </main>
+    </article>
 
-  <footer class="news">
-    <div class="news__bloque"></div>
-    <h3 class="news__title">Newsletter</h3>
-    <h5 class="news__mail">Correo Electrónico</h5>
-    <input class="news__form" type="text" placeholder="Ingresa tu correo electrónico" readonly>
-  </footer>
+    <footer class="body__news">
+      <div class="body__news-bloque">
+        <h3 class="body__news-title">Newsletter</h3>
+        <h5 class="body__news-mail">Correo Electrónico</h5>
+        <input class="body__news-form" type="text" placeholder="Ingresa tu correo electrónico" readonly>
+      </div>
+      <div class="body__news-susc">
+        <h5>Suscribir</h5>
+      </div>
+    </footer>
+  </main>
 
 </body>
 </html>
