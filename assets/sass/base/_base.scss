@@ -3,3 +3,12 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.test {
+  background-color: $white;
+  color: $smoky-black;
+
+  .row div {
+    border: 1px solid red;
+  }
+}

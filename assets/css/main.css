@@ -9661,6 +9661,14 @@ body {
   background-repeat: no-repeat;
 }
 
+.test {
+  background-color: #FFF;
+  color: #0C0910;
+}
+.test .row div {
+  border: 1px solid red;
+}
+
 h1 {
   font-family: "Old Standard TT", serif;
   font-size: 30px;
@@ -9748,7 +9756,7 @@ button {
   background-color: #FFF;
   padding-left: 50px;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
 }
 
 .body__txt-p {
@@ -9773,7 +9781,8 @@ button {
 
 .body__news-suscribir {
   color: #FFF;
-  transform: rotate();
+  transform: rotate(-90deg);
+  float: right;
 }
 
 .body__txt-button {
