@@ -1,7 +1,49 @@
 h1 {
-
+  font-family: $old-standard;
+  font-size: $xx-large;
+  font-weight: $bold;
+  color: $smoky-black;
 }
 
 h2 {
+  font-family: $old-standard;
+  font-size: $xx-large;
+  font-weight: $regular;
+  color: $smoky-black;
+}
 
+h3 {
+  font-family: $old-standard;
+  font-size: $xx-large;
+  font-weight: $bold;
+  color: $white;
+}
+
+h4 {
+  font-family: $old-standard;
+  font-size: $large;
+  font-weight: $bold;
+  color: $white;
+}
+
+h5 {
+  font-family: $old-standard;
+  font-size: $medium;
+  font-weight: $regular;
+  color: $white;
+}
+
+p {
+  font-family: $raleway;
+  font-size: $medium;
+  font-weight: $regular;
+  color: $quick-silver;
+}
+
+button {
+  font-family: $raleway;
+  font-size: $small;
+  font-weight: $bold;
+  color: $smoky-black;
+  background-color: $white;
 }

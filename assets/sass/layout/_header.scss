@@ -5,7 +5,6 @@
 
 .header__bloque {
   background-color: $smoky-black;
-  padding: 20px;
 }
 
 .header__bloque-txt {
@@ -13,4 +12,16 @@
   font-family: $old-standard;
   font-size: $x-large;
   font-weight: $regular;
+  padding: 20px;
+}
+
+.header__menu a {
+  font-family: $raleway;
+  font-size: $small;
+  font-weight: $bold;
+  color: $smoky-black;
+}
+
+.header__menu-nav {
+  padding-left: 700px;
 }
