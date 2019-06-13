@@ -9661,12 +9661,10 @@ body {
   background-repeat: no-repeat;
 }
 
-.test {
+.lorem {
+  margin-right: 60%;
   background-color: #FFF;
-  color: #0C0910;
-}
-.test .row div {
-  border: 1px solid red;
+  float: left;
 }
 
 h1 {
@@ -9747,23 +9745,18 @@ button {
   padding-left: 700px;
 }
 
-.body {
-  background-color: #FFF;
-  margin-right: 700px;
-}
-
-.body__txt {
+.lorem__txt {
   background-color: #FFF;
   padding-left: 50px;
   padding-top: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 40px;
 }
 
-.body__txt-p {
+.lorem__txt-p {
   padding-bottom: 15px;
 }
 
-.body__news {
+.lorem__news {
   background-color: #0C0910;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -9771,18 +9764,21 @@ button {
   margin-right: 50px;
 }
 
-.body__news-title {
+.lorem__news-title {
   padding-bottom: 10px;
 }
 
-.body__news-mail {
+.lorem__news-mail {
   padding-bottom: -3px;
 }
 
-.body__news-suscribir {
-  color: #FFF;
+.lorem__news-susc {
   transform: rotate(-90deg);
   float: right;
+}
+
+.lorem__news-suscribir {
+  color: #FFF;
 }
 
 .body__txt-button {
@@ -9790,7 +9786,7 @@ button {
 }
 
 .body__news-form {
-  width: 250px;
+  width: 550px;
   height: 30px;
   padding-left: 10px;
   font-family: "Raleway", sans-serif;

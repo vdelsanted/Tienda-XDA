@@ -1,4 +1,4 @@
-.body__news {
+.lorem__news {
   background-color: $smoky-black;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -6,17 +6,19 @@
   margin-right: 50px;
 }
 
-.body__news-title {
+.lorem__news-title {
   padding-bottom: 10px;
 }
 
-.body__news-mail {
+.lorem__news-mail {
   padding-bottom: -3px;
 }
 
-.body__news-suscribir {
-  color: $white;
+.lorem__news-susc {
   transform: rotate(-90deg);
   float: right;
-  padding-left: 40px;
+}
+
+.lorem__news-suscribir {
+  color: $white;
 }
